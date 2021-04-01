@@ -44,4 +44,3 @@ const mostSkilledDev = (person1, person2) => {
       `${person2.firstName}` : 'draw'
 }
 console.log(mostSkilledDev(alice, charlie))
-
