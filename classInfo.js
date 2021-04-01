@@ -20,25 +20,4 @@ class Human {
   }
 }
 
-const alice = new Human(
-  'Alice', 'Liddell', 28, ['javascript ', 'Ruby ', 'C++'])
-
-const bob = new Human(
-  'Bob', 'Lemon', 30, ['SQL ', 'Go ', 'Typescript ', 'C#'])
-
-const charlie = new Human(
-  'Charlie', 'Charlot', 8, ['PHP ', 'Python ']
-)
-
-alice.printInfo()
-bob.printInfo()
-charlie.printInfo()
-
-alice.canVote()
-bob.canVote()
-charlie.canVote()
-
-alice.mostSkilledDev(bob)
-bob.mostSkilledDev(charlie)
-charlie.mostSkilledDev(alice)
-
+exports.Human = Human
